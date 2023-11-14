@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    
+    <div class='navigation'>
+        <div class='navigator'>
+            <ul>
+                <li>
+                    <a herf="music.html">
+                        <span class='fa fa-home'></span>
+                        <span>HOME</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href='Search.html'>
+                        <span class='fa fa-search'></span>
+                        <span>Search</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href='#'>
+                        <span class='fa fas fa-book'></span>
+                        <a href="artist.html">Artist</a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class='navigator'>
+            <ul>
+                <li>
+                    <a href='playlist.html'>
+                        <span class='fa fas fa-plus-square'></span>
+                        <span>Create playlist</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href='liked.html'>
+                        <span class='fa fas fa-heart'></span>
+                        <span>Liked songs</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class='link'>
+            <ul>
+                <li>
+                    <a href='#'>cookies</a>
+                </li>
+                <li>
+                    <a href='#'>privacy</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class='content'>
+        <div class='intro'>
+            <div class='button'>
+                <button type='button' class='fa fas fa-chevron-right'></button>
+            </div>
+            <div class='login'>
+                <ul>
+                    <li><a href=''>Premium</a></li>
+                    <li><a href=''>Support</a></li>
+                    <li><a href=''>Download</a></li>
+                    <li><a href=''>Sign Up</a></li>
+                    <li><button type='button'>Setting</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="spotify-playlists">
+            <h2><blink>JaZZ-Opera Playlists </blink></h2>
+
+            <div class="list">
+                <div class="item">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.X-YyzG22hKQVgk97agOcQgHaEK&pid=Api&P=0&h=180">
+                    <h4>chaleya</h4>
+                    <p>anirudh<br>(From"Jawan") </p>
+                    <div class="song">
+                        <span class='fa fa-play' onclick="audio.play();" ondblclick="audio.pause();"></span>
+                        <script type="text/javascript">
+                            const audio = new Audio();
+                            audio.src = "chaleya.mp3";
+                        </script>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202307/748680-hukum-three_four.jpg?VersionId=helyHPHWgAM4XV_cixrp4PqAnBiz21HM">
+                    <h4>Hukum-Alappara</h4>
+                    <p>Anirudh Ravichander<br>(From"Jailer") </p>
+                    <div class="song">
+                        <span class="fa fa-play" onclick="audio.play();" onclick="audio.pause();"></span>
+                        <script type="text/javascript">
+                            const audio = new Audio();
+                            audio.src = "chaleya.mp3";
+                        </script>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFw0twPUzl4-u3w3iKOm6zZe7VYTuStcBQwQ&usqp=CAU">
+                    <h4>The Monster</h4>
+                    <p>Ravi Basrur,Adithi Sagar<br>(From"K.G.F") </p>
+                    <div class="song">
+                        <span class="fa fa-play" onclick="song.play();" ondblclick="song.pause();"></span>
+                        <script type="text/javascript">
+                          const song=new Audio();
+                          song.src="The-Monster-Song-MassTamilan.so.mp3";
+                        </script> 
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTJjN2NhY2EtYzZkOC00NDQ0LWFhMzEtNWZhYTFhNzNhNjllXkEyXkFqcGdeQXVyMTUyNjIwMDEw.V1.jpg">
+                    <h4>Naan Gaali</h4>
+                    <p>Sean Ronald,Mohan Rajan<br>(From"Good Night") </p>
+                    <div class="song">
+                        <span class="fa fa-play" onclick="me.play();" ondblclick="me.pause();"></span>
+                        <script type="text/javascript">
+                            const me = new Audio();
+                            me.src = "Naan-Gaali-MassTamilan.dev.mp3";
+                        </script>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BNzExYzU3ZGItYjVlMy00ZTBjLWIyNTMtYzk5MTliNDljNjAwXkEyXkFqcGdeQXVyMTU0ODI1NTA2.V1.jpg">
+                    <h4>Veerane</h4>
+                    <p>A.R.Rahman,A.R.Ameen<br>(From"Maamannan") </p>
+                    <div class="song">
+                        <span class="fa fa-play" onclick="audios.play();" ondblclick="audios.pause();"></span>
+                        <script>
+                            function play() {
+                                var audio = document.getElementById("audio");
+                                audio.play();
+                            const audio = new Audio();
+                            audios.src = 'Veerane-MassTamilan.dev.mp3';
+                        </script>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</body>
+</html>
+
+
+
